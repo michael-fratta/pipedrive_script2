@@ -1,0 +1,1 @@
+worker: python pipedrive_script2.py
