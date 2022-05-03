@@ -1,4 +1,4 @@
-A Python script - running automatically, on a (hardcoded) scheduler; bundled as an app and hosted on the cloud platform Heroku - that, essentially, updates the relevant entities within a CRM (Pipedrive) with the contents of a CSV file feched from an SFTP server. The steps it follows are explained - concisely - below (see code for full detail):
+A Python script - running automatically, on a (hardcoded) scheduler; bundled as an app and hosted on the cloud platform Heroku - that, essentially, updates the relevant entities within a CRM (Pipedrive) with the contents of a CSV file fetched from an SFTP server. The steps it follows are explained - concisely - below (see code for full detail):
 
 • connects to an SFTP server, using the pysftp library, and attempts to get the latest file that matches the provided search string
 
